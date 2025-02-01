@@ -7,8 +7,11 @@ import Features from './components/Features'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
 
+//for smooth scroll
+import LocomotiveScroll from 'locomotive-scroll';
 function App() {
-
+  
+  const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <>
