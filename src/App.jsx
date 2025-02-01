@@ -5,6 +5,7 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 import Features from './components/Features'
 import Cards from './components/Cards'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Eyes />
         <Features />
         <Cards />
+        <Footer />
       </div>
     </>
   )
